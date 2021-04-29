@@ -1,0 +1,95 @@
+body{
+    background-color: lightcyan;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    
+}
+
+h1{
+
+    text-align: center;
+    color: white;
+    -webkit-text-stroke: 1px black;
+}
+
+#menuBG {
+    border: solid 3px black;
+    border-radius: 5px;
+    margin: 10px;
+    width: 900px;
+    height: 500px;
+    margin: 10px auto;
+    background-color: #555;
+}
+
+#formMenu {
+    border-top: solid 1px black;
+    padding-left: 30px;
+    width: 870px;
+    height: 396px;
+    display: flex;
+    justify-content: space-around;
+    background-color: darkgray;
+    border-radius: 5px;
+    border-top-right-radius: 0;
+    border-top-left-radius: 0;
+}
+
+
+
+.menu {
+    display: flex;
+    flex-direction: column; 
+}
+
+.left {
+    
+    width: 250px;
+    height: 200px;
+    
+}
+
+.right  {
+    width: 250px;
+    height: 200px;
+    
+}
+
+.center {
+    width: 250px;
+    height:  200px;
+    
+}
+
+#showText{
+    
+    margin: 0px auto;
+    float: left;
+}
+
+#totalPrice {
+    
+
+    margin: 0 auto;
+    
+}
+
+#cart{
+    top:0;
+    margin: 0 auto;
+    padding: 0 10px;
+    width: 400px;
+    height: 200px;
+    display: flex;
+    align-items: baseline;
+}
+
+#btnOrder{
+    margin: 10px auto 10px 400px;
+    width: 100px;
+    height: 40px;
+}
+
+#cart {
+    border-left: solid 1px black;
+    height: 398px;
+}
